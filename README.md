@@ -2,6 +2,15 @@
 
 A simple weather application that allows users to search for current weather conditions and a 5-day forecast for any city. The app stores search history and displays it for easy access to previous searches.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Links](#links)
+
 ## Features
 
 - Search for current weather by city name
@@ -23,3 +32,21 @@ A simple weather application that allows users to search for current weather con
    ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
+   ```
+
+2. **Open the Application**
+   - Use a live server to view the application locally.
+
+## Usage
+
+- Enter a city name in the search bar to get current weather and a 5-day forecast.
+- Previous searches are saved and can be accessed from the search history.
+
+## Screenshots
+
+![Homepage](/)
+![Search Results](/)
+
+## Links
+
+- [GitHub Repository](https://github.com/yourusername/weather-app)

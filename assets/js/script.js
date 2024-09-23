@@ -2,7 +2,7 @@
 import { getCityCoordinates, fetchWeatherData, fetchForecastData } from './api.js';
 
 // Load the API key from the environment
-const apiKey = process.env.API_KEY;
+const apiKey = '9e502230fd130f6e4540d57ef403be90';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Load search history from localStorage on page load

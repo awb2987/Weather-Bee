@@ -44,8 +44,12 @@ A simple weather application that allows users to search for current weather con
 
 ## Screenshots
 
-![Homepage](/)
-![Search Results](/)
+![Homepage](/assets/images/Screenshot-homepage.png)
+![Search Results 1 top of page](/assets/images/Screenshot-top-of-page-1st-search.png)
+![Search Results 1 middle of page](/assets/images/Screenshot-middle-of-page-1st-search.png)
+![Search Results 2 top of page](/assets/images/Screenshot-top-of-page-2nd-search.png)
+![Search Results 2 middle of page](/assets/images/Screenshot-middle-of-page-2nd-search.png)
+![Search Results search history](/assets/images/Screenshot-search-history.png)
 
 ## Links
 

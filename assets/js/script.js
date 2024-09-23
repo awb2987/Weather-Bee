@@ -1,8 +1,8 @@
 // Import API functions from the api.js file
 import { getCityCoordinates, fetchWeatherData, fetchForecastData } from './api.js';
 
-// Define API key here
-const apiKey = 'my_api_key';
+// Load the API key from the environment
+const apiKey = process.env.API_KEY;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Load search history from localStorage on page load

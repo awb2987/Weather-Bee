@@ -1,4 +1,4 @@
-// Define API key
+// Load the API key from the environment
 const apiKey = process.env.API_KEY;
 
 /**

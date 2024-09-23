@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Bee</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather-Bee</h1>
+            <form id="search-form">
+                <label for="city-input">City:</label>
+                <input type="text" id="city-input" placeholder="Enter desired city name" required>
+                <button type="submit" id="search-button">Search</button>
+            </form>
+            <div id="error-message" style="color: red; display: none;"></div>
+        </header>
+
+        <main>
+            <section id="current-weather" class="weather-card">
+                <h2>Current Weather</h2>
+                <!-- Current weather of your desired city will be injected here -->
+            </section>
+            
+            <section id="forecast" class="forecast-container">
+                <h2>5-Day Forecast</h2>
+                <!-- 5-day forecast data will be injected here -->
+            </section>
+        </main>
+
+        <aside id="search-history">
+            <h2>Search History</h2>
+            <ul id="search-history-list">
+                <!-- Search history list of previously searched items will be injected here -->
+            </ul>
+        </aside>
+    </div>
+    
+    <script type="module" src="assets/js/api.js"></script>
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+</html>

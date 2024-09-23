@@ -1,0 +1,130 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', 'Times New Roman', sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0b7ef9;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+#city-input:focus {
+    border-color: #0b7ef9;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0b7ef9;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #02458d;
+}
+
+#current-weather {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card h4 {
+    margin-bottom: 10px;
+    color: #0b7ef9;
+}
+
+#search-history {
+    background-color: #e4f4ff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#search-history-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-history-list li:hover {
+    background-color: #cce7ff;
+}
+
+/* Responsive design styles */
+@media (max-width: 768px) {
+    #search-form {
+        flex-direction: column;
+    }
+
+    #city-input {
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -53,5 +53,5 @@ A simple weather application that allows users to search for current weather con
 
 ## Links
 
-- [GitHub Repository](https://github.com/yourusername/weather-app)
+- [GitHub Repository](https://github.com/awb2987/Weather-Bee)
 - [Deployed URL](https://awb2987.github.io/Weather-Bee/)

@@ -1,5 +1,5 @@
 // Define API key
-const apiKey = 'my_api_key';
+const apiKey = process.env.API_KEY;
 
 /**
  * Get coordinates for the desired city.
